@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 79
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 79
+known_first_party = ["app"]
+
+[tool.pycodestyle]
+max-line-length = 79
+ignore = ["E501", "W503", "W293"]
+
+[tool.pydocstyle]
+convention = "numpy"
