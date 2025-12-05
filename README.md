@@ -6,11 +6,11 @@ permite buscas por palavra-chave/expressões e ordenação por proximidade geogr
 Para melhor desempenho em buscas textuais, cria índices apropriados no MongoDB ao iniciar e utiliza consultas otimizadas.
 Também implementa-se ordenação por proximidade geográfica usando índices geoespaciais, caso latitude e longitude sejam fornecidas.
 
-## 📚 Documentação da API (Swagger)
+## Documentação da API (Swagger)
 
 A documentação interativa da API está disponível através do Swagger UI após iniciar a aplicação:
 
-- **Swagger UI (Interativo)**: http://localhost:8000/docs
+- **Swagger UI (Interativo)**: http://localhost:8000/docs ou http://localhost:8000
 - **ReDoc (Alternativo)**: http://localhost:8000/redoc
 - **OpenAPI JSON**: http://localhost:8000/openapi.json
 
